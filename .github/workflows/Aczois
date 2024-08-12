@@ -1,2 +1,0 @@
-if game.PlaceId == 893973440 then 	loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()", true))() elseif game.PlaceId == 2753915549 then 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))() end
-
