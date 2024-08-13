@@ -1,1 +1,8 @@
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Aczois Hub", "Midnight")
+local Tab = Window:NewTab("Games")
+local Section = Tab:NewSection("F")
+Section:NewButton("Flee The Facility", "ESP, Anti-Hack Fail. Chams and Walkspeed", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
+    print("Clicked")
+end)
