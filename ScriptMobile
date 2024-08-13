@@ -13,8 +13,8 @@ Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 local Tab = Window:MakeTab({
-	Name = "Games",
-	Icon = "rbxassetid://4483345998",
+	Name = "Flee The Facility",
+	Icon = "rbxassetid://18937273634",
 	PremiumOnly = false
 })
 
