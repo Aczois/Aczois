@@ -12,6 +12,12 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yaftfem.lua"))()
   	end    
-})
+
+Tab:AddButton({
+	Name = "Domadic Hub",
+	Callback = function()
+      		loadstring(Game:HttpGetAsync("https://pastebin.com/raw/uHg5K6WB"))()
+  	end    
+}]
 
 OrionLib:Init()
