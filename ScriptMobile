@@ -7,6 +7,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-
+Tab:AddButton({
+	Name = "YAFTEE",
+	Callback = function(loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))())
+      		print("button pressed")
+  	end    
+})
 
 OrionLib:Init()
