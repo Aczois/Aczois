@@ -404,7 +404,7 @@ TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(0.257609218, 0, 0.146337226, 0)
 TextLabel_4.Size = UDim2.new(0.372752637, 0, 0.128215611, 0)
 TextLabel_4.Font = Enum.Font.Unknown
-TextLabel_4.Text = "YAFTFEM"
+TextLabel_4.Text = "Aczois"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
@@ -419,7 +419,7 @@ TextLabel_5.BorderSizePixel = 0
 TextLabel_5.Position = UDim2.new(0.306898832, 0, 0.213279441, 0)
 TextLabel_5.Size = UDim2.new(0.471331865, 0, 0.0641078278, 0)
 TextLabel_5.Font = Enum.Font.Unknown
-TextLabel_5.Text = "yet another flee the facility exploit menu"
+TextLabel_5.Text = "Aczois Menu"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
@@ -520,13 +520,13 @@ local function PVDTSB_fake_script() -- Open.LocalScript
 				Position = closed
 			}):Play()
 			state = false
-			script.Parent.Text = "Open menu"
+			script.Parent.Text = "Open Aczois"
 		else
 			ts:Create(script.Parent.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 				Position = opened
 			}):Play()
 			state = true
-			script.Parent.Text = "Close menu"
+			script.Parent.Text = "Close Aczois"
 		end
 	end)
 end
@@ -643,7 +643,7 @@ Open.Position = UDim2.new(1.03400004, 0, 0.5, 0)
 Open.Rotation = 90.000
 Open.Size = UDim2.new(0.445820421, 0, 0.196078435, 0)
 Open.Font = Enum.Font.Gotham
-Open.Text = "Open menu"
+Open.Text = "Open Aczois"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextSize = 14.000
 
@@ -1080,13 +1080,13 @@ local function PVDTSB_fake_script() -- Open.LocalScript
 				Position = closed
 			}):Play()
 			state = false
-			script.Parent.Text = "Open menu"
+			script.Parent.Text = "Open Aczois"
 		else
 			ts:Create(script.Parent.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 				Position = opened
 			}):Play()
 			state = true
-			script.Parent.Text = "Close menu"
+			script.Parent.Text = "Close Aczois"
 		end
 	end)
 end
