@@ -12,6 +12,7 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yaftfem.lua"))()
   	end    
+}]
 
 Tab:AddButton({
 	Name = "Domadic Hub",
