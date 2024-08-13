@@ -28,16 +28,15 @@ local Section = Tab:AddSection({
 })
 
 --[[
-Name = <FTF> - The name of the section.
+Name = <FTF>
 ]]
 Tab:AddButton({
 	Name = "YAFTEE",
-	Callback = function()
+	Callback = function(loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))())
       		print("button pressed")
   	end    
 })
 
 --[[
-Name = <YAFTEE> - The name of the button.
-Callback = <loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()> - The function of the button.
-]]
+Name = <YAFTEE>
+Callback = <loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()>
