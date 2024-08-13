@@ -14,10 +14,8 @@ Tab:AddButton({
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "Blox Fruits",
-	Icon = "rbxassetid://12523036534",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "Blox Fruits"
 })
 
 Tab:AddButton({
