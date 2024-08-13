@@ -14,10 +14,6 @@ Tab:AddButton({
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "Blox Fruits"
-})
-
 Tab:AddButton({
 	Name = "Domadic Hub",
 	Callback = function()
