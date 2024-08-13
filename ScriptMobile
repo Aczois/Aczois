@@ -4,5 +4,4 @@ local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = false, Sa
 
 
 
-end
 OrionLib:Init()
