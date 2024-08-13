@@ -40,3 +40,4 @@ Tab:AddButton({
 --[[
 Name = <YAFTEE>
 Callback = <loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()>
+OrionLib:Init()
