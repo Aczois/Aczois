@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 	Name = "YAFTEE",
-	Callback = function(loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))())
+	Callback = function()
       		print("button pressed")
   	end    
 })
