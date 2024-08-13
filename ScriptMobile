@@ -39,5 +39,5 @@ Tab:AddButton({
 
 --[[
 Name = <YAFTEE> - The name of the button.
-Callback = <> - The function of the button.
+Callback = <loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()> - The function of the button.
 ]]
