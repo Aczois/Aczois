@@ -83,7 +83,7 @@ Open.Position = UDim2.new(1.03400004, 0, 0.5, 0)
 Open.Rotation = 90.000
 Open.Size = UDim2.new(0.445820421, 0, 0.196078435, 0)
 Open.Font = Enum.Font.Gotham
-Open.Text = "Open menu"
+Open.Text = "Open Aczois"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextSize = 14.000
 
