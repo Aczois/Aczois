@@ -17,8 +17,53 @@ Exploit1:NewButton("Place-Holder", "Place-Holder", function()
 
 end)
 
+local Exploit1 = Pendulum:NewTab("D")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("E")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
 local Exploit1 = Pendulum:NewTab("F")
 Exploit1:NewButton("Flee The Facility", "YAFTEE", function()
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("G")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("H")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("I")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("J")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("K")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("L")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("M")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
 
 end)
