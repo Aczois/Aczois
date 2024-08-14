@@ -51,9 +51,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "",
+	Name = "RylorHub",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
+
   	end    
 })
 
