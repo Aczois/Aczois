@@ -1,9 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))() -- defining the gui library
-local Pendulum = Library:New("Aczois")
+local Pendulum = Library:New("Aczois Hub")
 
-local Exploit1 = Pendulum:NewTab("Scripts")
+local Exploit1 = Pendulum:NewTab("B")
 
-Exploit1:NewButton("Flee The Facility", "OP Script", function()
+Exploit1:NewButton("Blox Fruits", "Domadic Hub", function()
+
+
+local Exploit1 = Pendulum:NewTab("F")
+
+Exploit1:NewButton("Flee The Facility", "YAFTEE", function()
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
 
 end)
