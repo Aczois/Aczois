@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))() -- defining the gui library
+local Pendulum = Library:New("Aczois")
+
+local Exploit1 = Pendulum:NewTab("Scripts")
+
+Exploit1:NewButton("Flee The Facility", "OP Script", function()
+
+end)
