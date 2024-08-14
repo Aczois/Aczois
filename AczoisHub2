@@ -43,8 +43,12 @@ Tab:AddButton({
       		OrionLib:Destroy()
   	end    
 })
+Tab:AddDropdown({
+	Name = "Test",
+	Default = "1",
+	Options = {"1", "2"},
+	Callback = function(Value)
+		print(Hello)
+	end    
+})
 OrionLib:Init()
-
-
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
