@@ -11,6 +11,15 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+ocal Section = Tab:AddSection({
+	Name = "I - Infinite Yield"
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      	https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "A-M",
 	Icon = "rbxassetid://4483345998",
