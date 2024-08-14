@@ -134,5 +134,5 @@ end)
 
 local Exploit1 = Pendulum:NewTab("Z")
 Exploit1:NewButton("Zombie Attack", "RylorHub", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/xlykor/MikeBayraktarZombieAttack/main/MikeBayraktarZombieAttack"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/ZA-RH"))()
 end)
