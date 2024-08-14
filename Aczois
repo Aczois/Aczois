@@ -3,6 +3,10 @@
 -14/8/24 - Added - Blox Fruits       - Domadic Hub - Script -
 -14/8/24 - Added - Zombie Attack      - RylorHub    - Script -
 
+local url = "https://discord.gg/gZwkVxemSV"
+setclipboard(url)
+print("Aczois' Discord URL HAs Been Sent To Your Clipboard, Please Join!")
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))() -- defining the gui library
 local Pendulum = Library:New("Aczois Hub")
 
