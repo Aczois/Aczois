@@ -15,7 +15,7 @@ Exploit1:NewButton("B - Blox Fruits", "Domadic Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 end)
 Exploit1:NewButton("F - Flee The Facility", "YAFTEE", function()
-	loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
 end)
 
 local Exploit1 = Pendulum:NewTab("N-Z")
