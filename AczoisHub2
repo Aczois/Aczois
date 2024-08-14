@@ -16,7 +16,7 @@ Tab:AddButton({
   	end    
 })
 local Section = Tab:AddSection({
-	Name = "F - Flee The FAcility"
+	Name = "F - Flee The Facility"
 })
 Tab:AddButton({
 	Name = "YAFTFEM",
