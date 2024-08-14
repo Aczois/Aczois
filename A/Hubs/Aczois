@@ -10,16 +10,15 @@ print("Aczois' Discord URL Has Been Sent To Your Clipboard, Please Join!")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
 
 local Exploit1 = Pendulum:NewTab("A-M")
+
 Exploit1:NewButton("B - Blox Fruits", "Domadic Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 end)
-
 Exploit1:NewButton("F - Flee The Facility", "YAFTEE", function()
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
-
 end)
 
 local Exploit1 = Pendulum:NewTab("N-Z")
 Exploit1:NewButton("Z - Zombie Attack", "RylorHub", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/ZA-RH"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/ZA-RH"))()
 end)
