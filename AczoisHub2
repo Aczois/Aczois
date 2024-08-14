@@ -2,6 +2,14 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
 local Tab = Window:MakeTab({
+	Name = "About Aczois",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Paragraph","Hi I am Aczois and I'm just making a script hub for me and anyone coming across it!")
+
+local Tab = Window:MakeTab({
 	Name = "A",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
