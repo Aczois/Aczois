@@ -5,5 +5,29 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/Aczois/Orion/Lib')))()
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+local Tab = Window:MakeTab({
+	Name = "Universal Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "I"
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+
+
+
+
+
 
 OrionLib:Init()
