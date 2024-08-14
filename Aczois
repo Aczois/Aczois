@@ -4,5 +4,6 @@ local Pendulum = Library:New("Aczois")
 local Exploit1 = Pendulum:NewTab("Scripts")
 
 Exploit1:NewButton("Flee The Facility", "OP Script", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Flee-the-Facility-YAFTFEM-11844"))()
 
 end)
