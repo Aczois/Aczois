@@ -2,7 +2,13 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
 local Tab = Window:MakeTab({
-	Name = "A-M",
+	Name = "A",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "B",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
