@@ -1,0 +1,89 @@
+-- Logs 				                      -
+-- 14/8/24 - Added - Flee The Facility - YAFTEEM     - Script - ESP = Players, Computers, Pods and Exits. Anti-Computer Fail, Chams and Customise Speed.
+-- 14/8/24 - Added - Blox Fruits       - Domadic Hub - Script - AutoFarm, AutoItem and Many Many More.
+-- 14/8/24 - Added - Zombie Attack     - RylorHub    - Script - AutoFarm and ???
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/main/Orion/Lib')))()
+local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+
+local Tab = Window:MakeTab({
+	Name = "Universal Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "A-M",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "B - Blox Fruits"
+})
+
+Tab:AddButton({
+	Name = "Domadic Hub",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "F - Flee The Facility"
+})
+
+Tab:AddButton({
+	Name = "YAFTFEM",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "N-Z",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Z - Zombie Attack"
+})
+
+Tab:AddButton({
+	Name = "RylorHub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/ZA-RH"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "0-10",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("About Me","Hi I am Aczois and I'm just making a script hub for me and anyone coming across it!")
+Tab:AddButton({
+	Name = "Kill UI",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+
+Tab:AddDropdown({
+	Name = "Test",
+	Default = "1",
+	Options = {"1", "2"},
+	Callback = function(Value)
+		print(Hello)
+	end    
+})
+
+OrionLib:Init()
