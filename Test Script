@@ -33,7 +33,6 @@ UIPadding.PaddingBottom = UDim.new(0, 3)
 UIPadding.PaddingLeft = UDim.new(0, 3)
 UIPadding.PaddingRight = UDim.new(0, 3)
 UIPadding.PaddingTop = UDim.new(0, 3)
-  	end    
 })
 
 Tab:AddButton({
@@ -61,8 +60,7 @@ UIPadding_2.Parent = Pods
 UIPadding_2.PaddingBottom = UDim.new(0, 3)
 UIPadding_2.PaddingLeft = UDim.new(0, 3)
 UIPadding_2.PaddingRight = UDim.new(0, 3)
-UIPadding_2.PaddingTop = UDim.new(0, 3)
-  	end    
+UIPadding_2.PaddingTop = UDim.new(0, 3)  
 })
 
 Tab:AddButton({
@@ -90,8 +88,7 @@ UIPadding_3.Parent = Exits
 UIPadding_3.PaddingBottom = UDim.new(0, 3)
 UIPadding_3.PaddingLeft = UDim.new(0, 3)
 UIPadding_3.PaddingRight = UDim.new(0, 3)
-UIPadding_3.PaddingTop = UDim.new(0, 3)
-  	end    
+UIPadding_3.PaddingTop = UDim.new(0, 3) 
 })
 
 Tab:AddButton({
@@ -124,7 +121,6 @@ UIPadding_4.PaddingTop = UDim.new(0, 3)
 UIPadding_5.Parent = Frame_2
 UIPadding_5.PaddingLeft = UDim.new(0, 3)
 UIPadding_5.PaddingRight = UDim.new(0, 3)
-  	end    
 })
 
 OrionLib:Init()
