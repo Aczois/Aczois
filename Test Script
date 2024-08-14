@@ -19,6 +19,41 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY"))()
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "A-Z",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "A"
+})
+local Section = Tab:AddSection({
+	Name = "B"
+})
+local Section = Tab:AddSection({
+	Name = "C"
+})
+local Section = Tab:AddSection({
+	Name = "D"
+})
+local Section = Tab:AddSection({
+	Name = "E"
+})
+local Section = Tab:AddSection({
+	Name = "F"
+})
+local Section = Tab:AddSection({
+	Name = "G"
+})
+local Section = Tab:AddSection({
+	Name = "H"
+})
+local Section = Tab:AddSection({
+	Name = "I"
+})
+local Section = Tab:AddSection({
+	Name = "J"
+})
 
 
 
