@@ -51,7 +51,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Flee The Facility",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/FTF-YAFTEEM"))()
   	end    
 })
 local Section = Tab:AddSection({
