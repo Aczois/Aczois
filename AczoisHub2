@@ -15,6 +15,13 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
   	end    
 })
+Tab:AddButton({
+	Name = "F - Flee The Facilty",
+	Callback = function()
+      		
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "N-Z",
 	Icon = "rbxassetid://4483345998",
@@ -38,3 +45,7 @@ Tab:AddButton({
   	end    
 })
 OrionLib:Init()
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
