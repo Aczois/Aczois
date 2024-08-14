@@ -120,12 +120,18 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/ZA-RH"))()
   	end    
 })
-
-
-
-
-
-
-
-
+local Tab = Window:MakeTab({
+	Name = "ETC",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Kill Menu"
+})
+Tab:AddButton({
+	Name = "Kill",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
 OrionLib:Init()
