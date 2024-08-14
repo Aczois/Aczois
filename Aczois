@@ -67,3 +67,68 @@ local Exploit1 = Pendulum:NewTab("M")
 Exploit1:NewButton("Place-Holder", "Place-Holder", function()
 
 end)
+
+local Exploit1 = Pendulum:NewTab("N")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("O")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("P")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("Q")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("R")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("S")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("T")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("U")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("V")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("W")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("X")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("Y")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
+
+local Exploit1 = Pendulum:NewTab("Z")
+Exploit1:NewButton("Place-Holder", "Place-Holder", function()
+
+end)
