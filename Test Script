@@ -1,89 +1,130 @@
--- Logs 				                      -
--- 14/8/24 - Added - Flee The Facility - YAFTEEM     - Script - ESP = Players, Computers, Pods and Exits. Anti-Computer Fail, Chams and Customise Speed.
--- 14/8/24 - Added - Blox Fruits       - Domadic Hub - Script - AutoFarm, AutoItem and Many Many More.
--- 14/8/24 - Added - Zombie Attack     - RylorHub    - Script - AutoFarm and ???
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/main/Orion/Lib')))()
-local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+local Window = OrionLib:MakeWindow({Name = "Aczois FTF", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
 local Tab = Window:MakeTab({
-	Name = "Universal Scripts",
+	Name = "ESP",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "A-M",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "B - Blox Fruits"
 })
 
 Tab:AddButton({
-	Name = "Domadic Hub",
+	Name = "PCs",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
+      		PCs.Name = "PCs"
+PCs.Parent = Frame_2
+PCs.AnchorPoint = Vector2.new(0.5, 0.5)
+PCs.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+PCs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PCs.BorderSizePixel = 0
+PCs.Position = UDim2.new(0.0450000018, 0, 0.112000003, 0)
+PCs.Size = UDim2.new(0, 200, 0, 50)
+PCs.AutoButtonColor = false
+PCs.Font = Enum.Font.Gotham
+PCs.Text = "PCs"
+PCs.TextColor3 = Color3.fromRGB(255, 255, 255)
+PCs.TextScaled = true
+PCs.TextSize = 14.000
+PCs.TextWrapped = true
+
+UICorner_3.Parent = PCs
+
+UIPadding.Parent = PCs
+UIPadding.PaddingBottom = UDim.new(0, 3)
+UIPadding.PaddingLeft = UDim.new(0, 3)
+UIPadding.PaddingRight = UDim.new(0, 3)
+UIPadding.PaddingTop = UDim.new(0, 3)
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "F - Flee The Facility"
-})
-
 Tab:AddButton({
-	Name = "YAFTFEM",
+	Name = "Pods",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
-	end    
-})
+      		Pods.Name = "Pods"
+Pods.Parent = Frame_2
+Pods.AnchorPoint = Vector2.new(0.5, 0.5)
+Pods.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Pods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pods.BorderSizePixel = 0
+Pods.Position = UDim2.new(0.0450000018, 0, 0.112000003, 0)
+Pods.Size = UDim2.new(0, 200, 0, 50)
+Pods.AutoButtonColor = false
+Pods.Font = Enum.Font.Gotham
+Pods.Text = "Pods"
+Pods.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pods.TextScaled = true
+Pods.TextSize = 14.000
+Pods.TextWrapped = true
 
-local Tab = Window:MakeTab({
-	Name = "N-Z",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+UICorner_4.Parent = Pods
 
-local Section = Tab:AddSection({
-	Name = "Z - Zombie Attack"
-})
-
-Tab:AddButton({
-	Name = "RylorHub",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/ZA-RH"))()
+UIPadding_2.Parent = Pods
+UIPadding_2.PaddingBottom = UDim.new(0, 3)
+UIPadding_2.PaddingLeft = UDim.new(0, 3)
+UIPadding_2.PaddingRight = UDim.new(0, 3)
+UIPadding_2.PaddingTop = UDim.new(0, 3)
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "0-10",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Other",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddParagraph("About Me","Hi I am Aczois and I'm just making a script hub for me and anyone coming across it!")
 Tab:AddButton({
-	Name = "Kill UI",
+	Name = "Exits",
 	Callback = function()
-      		OrionLib:Destroy()
+      		Exits.Name = "Exits"
+Exits.Parent = Frame_2
+Exits.AnchorPoint = Vector2.new(0.5, 0.5)
+Exits.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Exits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exits.BorderSizePixel = 0
+Exits.Position = UDim2.new(0.0450000018, 0, 0.112000003, 0)
+Exits.Size = UDim2.new(0, 200, 0, 50)
+Exits.AutoButtonColor = false
+Exits.Font = Enum.Font.Gotham
+Exits.Text = "Exits"
+Exits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exits.TextScaled = true
+Exits.TextSize = 14.000
+Exits.TextWrapped = true
+
+UICorner_5.Parent = Exits
+
+UIPadding_3.Parent = Exits
+UIPadding_3.PaddingBottom = UDim.new(0, 3)
+UIPadding_3.PaddingLeft = UDim.new(0, 3)
+UIPadding_3.PaddingRight = UDim.new(0, 3)
+UIPadding_3.PaddingTop = UDim.new(0, 3)
   	end    
 })
 
-Tab:AddDropdown({
-	Name = "Test",
-	Default = "1",
-	Options = {"1", "2"},
-	Callback = function(Value)
-		print(Hello)
-	end    
+Tab:AddButton({
+	Name = "Players,
+	Callback = function()
+      		Players.Name = "Players"
+Players.Parent = Frame_2
+Players.AnchorPoint = Vector2.new(0.5, 0.5)
+Players.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Players.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Players.BorderSizePixel = 0
+Players.Position = UDim2.new(0.0450000018, 0, 0.112000003, 0)
+Players.Size = UDim2.new(0, 200, 0, 50)
+Players.AutoButtonColor = false
+Players.Font = Enum.Font.Gotham
+Players.Text = "Players"
+Players.TextColor3 = Color3.fromRGB(255, 255, 255)
+Players.TextScaled = true
+Players.TextSize = 14.000
+Players.TextWrapped = true
+
+UICorner_6.Parent = Players
+
+UIPadding_4.Parent = Players
+UIPadding_4.PaddingBottom = UDim.new(0, 3)
+UIPadding_4.PaddingLeft = UDim.new(0, 3)
+UIPadding_4.PaddingRight = UDim.new(0, 3)
+UIPadding_4.PaddingTop = UDim.new(0, 3)
+
+UIPadding_5.Parent = Frame_2
+UIPadding_5.PaddingLeft = UDim.new(0, 3)
+UIPadding_5.PaddingRight = UDim.new(0, 3)
+  	end    
 })
 
 OrionLib:Init()
