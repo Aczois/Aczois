@@ -30,6 +30,12 @@ local Section = Tab:AddSection({
 local Section = Tab:AddSection({
 	Name = "B"
 })
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 local Section = Tab:AddSection({
 	Name = "C"
 })
@@ -41,6 +47,12 @@ local Section = Tab:AddSection({
 })
 local Section = Tab:AddSection({
 	Name = "F"
+})
+Tab:AddButton({
+	Name = "Flee The Facility",
+	Callback = function()
+      		print("button pressed")
+  	end    
 })
 local Section = Tab:AddSection({
 	Name = "G"
