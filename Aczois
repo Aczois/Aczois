@@ -1,6 +1,7 @@
 -Logs 							-
 -14/8/24 - Added - Flee The Facility - YAFTEEM - Script -
 -14/8/24 - Added - Blox Fruits - Domadic Hub - Script   -
+-14/8/24 - Added - Zombie Attck - RylorHub - Script     -
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))() -- defining the gui library
 local Pendulum = Library:New("Aczois Hub")
