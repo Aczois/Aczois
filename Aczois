@@ -17,7 +17,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-      	https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY"))()
   	end    
 })
 local Tab = Window:MakeTab({
