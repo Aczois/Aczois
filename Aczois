@@ -11,7 +11,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-ocal Section = Tab:AddSection({
+local Section = Tab:AddSection({
 	Name = "I - Infinite Yield"
 })
 Tab:AddButton({
