@@ -14,11 +14,13 @@ local Exploit1 = Pendulum:NewTab("A-M")
 Exploit1:NewButton("B - Blox Fruits", "Domadic Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 end)
+
 Exploit1:NewButton("F - Flee The Facility", "YAFTEE", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
 end)
 
 local Exploit1 = Pendulum:NewTab("N-Z")
+
 Exploit1:NewButton("Z - Zombie Attack", "RylorHub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/ZA-RH"))()
 end)
