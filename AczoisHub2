@@ -1,3 +1,8 @@
+-- Logs 				                      -
+-- 14/8/24 - Added - Flee The Facility - YAFTEEM     - Script -
+-- 14/8/24 - Added - Blox Fruits       - Domadic Hub - Script -
+-- 14/8/24 - Added - Zombie Attack     - RylorHub    - Script -
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/main/Orion/Lib')))()
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
