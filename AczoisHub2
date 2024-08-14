@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroTest = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
 local Tab = Window:MakeTab({
 	Name = "Universal Scripts",
