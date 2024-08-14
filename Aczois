@@ -5,6 +5,18 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/Aczois/Orion/Lib')))()
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+OrionLib:MakeNotification({
+	Name = "Executing...",
+	Content = "Aczois Hub Is Loading!",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+OrionLib:MakeNotification({
+	Name = "Executed",
+	Content = "Aczois Hub Is Loaded",
+	Image = "rbxassetid://4483345998",
+	Time = 2
+})
 local Tab = Window:MakeTab({
 	Name = "Universal Scripts",
 	Icon = "rbxassetid://4483345998",
