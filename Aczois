@@ -5,96 +5,133 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/Aczois/Orion/Lib')))()
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
-
 local Tab = Window:MakeTab({
 	Name = "Universal Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 local Section = Tab:AddSection({
-	Name = "I - Infinite Yield"
+	Name = "I"
 })
-
 Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/IY"))()
   	end    
 })
-
 local Tab = Window:MakeTab({
-	Name = "A-M",
+	Name = "A-Z",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 local Section = Tab:AddSection({
-	Name = "B - Blox Fruits"
+	Name = "A"
 })
-
+local Section = Tab:AddSection({
+	Name = "B"
+})
 Tab:AddButton({
-	Name = "Domadic Hub",
+	Name = "Blox Fruits",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/BF-DH"))()
   	end    
 })
-
 local Section = Tab:AddSection({
-	Name = "F - Flee The Facility"
+	Name = "C"
 })
-
-Tab:AddButton({
-	Name = "YAFTFEM",
-	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
-	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "N-Z",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
 local Section = Tab:AddSection({
-	Name = "Z - Zombie Attack"
+	Name = "D"
 })
-
+local Section = Tab:AddSection({
+	Name = "E"
+})
+local Section = Tab:AddSection({
+	Name = "F"
+})
 Tab:AddButton({
-	Name = "RylorHub",
+	Name = "Flee The Facility",
 	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/ZA-RH"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/FTF-YAFTEEM"))()
   	end    
 })
-
-local Tab = Window:MakeTab({
-	Name = "0-10",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "G"
 })
-
-local Tab = Window:MakeTab({
-	Name = "Other",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "H"
 })
+local Section = Tab:AddSection({
+	Name = "I"
+})
+local Section = Tab:AddSection({
+	Name = "J"
+})
+local Section = Tab:AddSection({
+	Name = "K"
+})
+local Section = Tab:AddSection({
+	Name = "L"
+})
+local Section = Tab:AddSection({
+	Name = "M"
+})
+local Section = Tab:AddSection({
+	Name = "N"
+})
+local Section = Tab:AddSection({
+	Name = "O"
+})
+local Section = Tab:AddSection({
+	Name = "P"
+})
+local Section = Tab:AddSection({
+	Name = "Q"
+})
+local Section = Tab:AddSection({
+	Name = "R"
+})
+local Section = Tab:AddSection({
+	Name = "S"
+})
+local Section = Tab:AddSection({
+	Name = "T"
+})
+local Section = Tab:AddSection({
+	Name = "U"
+})
+local Section = Tab:AddSection({
+	Name = "V"
+})
+local Section = Tab:AddSection({
+	Name = "W"
+})
+local Section = Tab:AddSection({
+	Name = "X"
+})
+local Section = Tab:AddSection({
+	Name = "Y"
 
-Tab:AddParagraph("About Me","Hi I am Aczois and I'm just making a script hub for me and anyone coming across it!")
+})local Section = Tab:AddSection({
+	Name = "Z"
+})
 Tab:AddButton({
-	Name = "Kill UI",
+	Name = "Zombie Attack",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/ZA-RH"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "ETC",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Kill Menu"
+})
+Tab:AddButton({
+	Name = "Kill",
 	Callback = function()
       		OrionLib:Destroy()
   	end    
 })
-
-Tab:AddDropdown({
-	Name = "Test",
-	Default = "1",
-	Options = {"1", "2"},
-	Callback = function(Value)
-		print(Hello)
-	end    
-})
-
 OrionLib:Init()
