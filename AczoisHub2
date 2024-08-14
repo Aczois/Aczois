@@ -6,44 +6,54 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 local Tab = Window:MakeTab({
 	Name = "A-M",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 local Section = Tab:AddSection({
 	Name = "B - Blox Fruits"
+
 })
+
 Tab:AddButton({
 	Name = "Domadic Hub",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
   	end    
 })
+
 local Section = Tab:AddSection({
 	Name = "F - Flee The Facility"
 })
+
 Tab:AddButton({
 	Name = "YAFTFEM",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/FTF-YAFTEEM"))()
 	end    
 })
+
 local Tab = Window:MakeTab({
 	Name = "N-Z",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 local Tab = Window:MakeTab({
 	Name = "0-10",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 local Tab = Window:MakeTab({
 	Name = "Other",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 Tab:AddParagraph("About Me","Hi I am Aczois and I'm just making a script hub for me and anyone coming across it!")
 Tab:AddButton({
 	Name = "Kill UI",
@@ -51,6 +61,7 @@ Tab:AddButton({
       		OrionLib:Destroy()
   	end    
 })
+
 Tab:AddDropdown({
 	Name = "Test",
 	Default = "1",
@@ -59,4 +70,5 @@ Tab:AddDropdown({
 		print(Hello)
 	end    
 })
+
 OrionLib:Init()
