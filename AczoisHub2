@@ -2,19 +2,13 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, SaveConfig = true, ConfigFolder = "AczoisConfig"})
 
 local Tab = Window:MakeTab({
-	Name = "A",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "B",
+	Name = "A-M",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Blox Fruits"
+	Name = "B - Blox Fruits"
 })
 
 Tab:AddButton({
@@ -25,151 +19,14 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "C",
+	Name = "N-Z",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Tab = Window:MakeTab({
-	Name = "D",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 
 local Tab = Window:MakeTab({
-	Name = "E",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "F",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "G",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "H",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "I",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "J",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "K",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "L",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "M",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "N",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "O",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "P",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Q",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "R",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "S",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "T",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "U",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "V",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "W",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "X",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Y",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Z",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "About Aczois",
+	Name = "0-10",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -182,8 +39,5 @@ Tab:AddButton({
       		OrionLib:Destroy()
   	end    
 })
-
-
-
 
 OrionLib:Init()
