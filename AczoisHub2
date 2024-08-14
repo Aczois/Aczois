@@ -15,7 +15,6 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 	Name = "B - Blox Fruits"
-
 })
 
 Tab:AddButton({
