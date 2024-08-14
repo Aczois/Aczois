@@ -46,6 +46,17 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Z - Zombie Attack"
+})
+
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "0-10",
 	Icon = "rbxassetid://4483345998",
