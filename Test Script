@@ -33,7 +33,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Blox Fruits",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/main/A/Secure/BF-DH"))()
   	end    
 })
 local Section = Tab:AddSection({
