@@ -1,0 +1,19 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, SaveConfig = true, ConfigFolder = "AczoisConfig"})
+
+local Tab = Window:MakeTab({
+	Name = "A-M",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Blox Fruits"
+})
+
+Tab:AddButton({
+	Name = "Domadic Hub",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+  	end    
+})
