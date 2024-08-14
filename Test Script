@@ -54,8 +54,54 @@ local Section = Tab:AddSection({
 local Section = Tab:AddSection({
 	Name = "J"
 })
+local Section = Tab:AddSection({
+	Name = "K"
+})
+local Section = Tab:AddSection({
+	Name = "L"
+})
+local Section = Tab:AddSection({
+	Name = "M"
+})
+local Section = Tab:AddSection({
+	Name = "N"
+})
+local Section = Tab:AddSection({
+	Name = "O"
+})
+local Section = Tab:AddSection({
+	Name = "P"
+})
+local Section = Tab:AddSection({
+	Name = "Q"
+})
+local Section = Tab:AddSection({
+	Name = "R"
+})
+local Section = Tab:AddSection({
+	Name = "S"
+})
+local Section = Tab:AddSection({
+	Name = "T"
+})
+local Section = Tab:AddSection({
+	Name = "U"
+})
+local Section = Tab:AddSection({
+	Name = "V"
+})
+local Section = Tab:AddSection({
+	Name = "W"
+})
+local Section = Tab:AddSection({
+	Name = "X"
+})
+local Section = Tab:AddSection({
+	Name = "Y"
 
-
+})local Section = Tab:AddSection({
+	Name = "Z"
+})
 
 
 
