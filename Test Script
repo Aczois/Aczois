@@ -7,7 +7,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Acz
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
 local Tab = Window:MakeTab({
 	Name = "Universal Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://18962907100",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
