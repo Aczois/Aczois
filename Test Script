@@ -1,7 +1,7 @@
 -- Logs 				                      -
--- 14/8/24 - Added - Flee The Facility - YAFTEEM     - Script - ESP = Players, Computers, Pods and Exits. Anti-Computer Fail, Chams and Customise Speed.
--- 14/8/24 - Added - Blox Fruits       - Domadic Hub - Script - AutoFarm, AutoItem and Many Many More.
--- 14/8/24 - Added - Zombie Attack     - RylorHub    - Script - AutoFarm and ???
+-- Flee The Facility - YAFTEEM     - Script - ESP = Players, Computers, Pods and Exits. Anti-Computer Fail, Chams and Customise Speed.
+-- Blox Fruits       - Domadic Hub - Script - AutoFarm, AutoItem and Many Many More.
+-- Zombie Attack     - RylorHub    - Script - AutoFarm and ???
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/Aczois/Orion/Lib')))()
 local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
