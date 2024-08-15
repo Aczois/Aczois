@@ -31,6 +31,12 @@ local Section = Tab:AddSection({
 	Name = "B"
 })
 Tab:AddButton({
+	Name = "Blair",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/B-YT"))()
+  	end    
+})
+Tab:AddButton({
 	Name = "Blox Fruits",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/BF-DH"))()
