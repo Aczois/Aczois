@@ -81,6 +81,12 @@ local Section = Tab:AddSection({
 local Section = Tab:AddSection({
 	Name = "M"
 })
+Tab:AddButton({
+	Name = "Blair",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/MVSD-YT"))()
+  	end    
+})
 local Section = Tab:AddSection({
 	Name = "N"
 })
