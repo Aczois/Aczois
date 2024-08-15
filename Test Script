@@ -82,7 +82,7 @@ local Section = Tab:AddSection({
 	Name = "M"
 })
 Tab:AddButton({
-	Name = "Blair",
+	Name = "Murderers VS Sheriffs Duels",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/MVSD-YT"))()
   	end    
