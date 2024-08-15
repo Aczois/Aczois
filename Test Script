@@ -160,6 +160,7 @@ Tab:AddButton({
                             v.NRPBS:FindFirstChild("Health") and
                             v.NRPBS.Health.Value > 0 and
                             v.TeamColor ~= lplr.TeamColor 
+OrionLib:Init()
                         then
                             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
                             camera.CFrame = CFrame.new(camera.CFrame.Position, v.Character["Head"].Position) 
