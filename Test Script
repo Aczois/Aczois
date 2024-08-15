@@ -134,35 +134,4 @@ Tab:AddButton({
       		OrionLib:Destroy()
   	end    
 })
-local Tab = Window:MakeTab({
-	Name = "Arsenal",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local Section = Tab:AddSection({
-	Name = "Arsenal"
-})
-Tab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		local camera = workspace.CurrentCamera
-            local lplr = game:GetService("Players").LocalPlayer
-
-            spawn(function()
-                while _G.autofarm do
-                    wait()
-                    for i, v in pairs(game:GetService("Players"):GetChildren()) do
-                        if
-                            v.Character and
-                            v.Character:FindFirstChild("Humanoid") and
-                            v ~= lplr and 
-                            v:FindFirstChild("NRPBS") and
-                            v.NRPBS:FindFirstChild("Health") and
-                            v.NRPBS.Health.Value > 0 and
-                            v.TeamColor ~= lplr.TeamColor 
 OrionLib:Init()
-                        then
-                            game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
-                            camera.CFrame = CFrame.new(camera.CFrame.Position, v.Character["Head"].Position) 
-  	end    
-})
