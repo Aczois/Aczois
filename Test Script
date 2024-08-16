@@ -11,7 +11,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/IY"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/IY"))()
   	end    
 })
 local Tab = Window:MakeTab({
@@ -28,13 +28,13 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Blair",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/B-YT"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/B-YT"))()
   	end    
 })
 Tab:AddButton({
 	Name = "Blox Fruits",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/BF-DH"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/BF-DH"))()
   	end    
 })
 local Section = Tab:AddSection({
@@ -52,7 +52,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Flee The Facility",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/FTF-YAFTEEM"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/FTF-YAFTEEM"))()
   	end    
 })
 local Section = Tab:AddSection({
@@ -79,7 +79,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Murderers VS Sheriffs Duels",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/MVSD-YT"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/MVSD-YT"))()
   	end    
 })
 local Section = Tab:AddSection({
@@ -124,7 +124,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Zombie Attack",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/ZA-RH"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/ZA-RH"))()
   	end    
 })
 local Tab = Window:MakeTab({
