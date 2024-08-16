@@ -7,7 +7,7 @@
 -- Blair	     - Unknown	   - Script - Many features to find ghost
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aczois/Aczois/Aczois/Orion/Lib')))()
-local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroEnabled = False, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
+local Window = OrionLib:MakeWindow({Name = "Aczois Hub", HidePremium = True, IntroEnabled = false, IntroText = "By Aczois", SaveConfig = true, ConfigFolder = "AczoisConfig"})
 local Tab = Window:MakeTab({
 	Name = "Universal Scripts",
 	Icon = "rbxassetid://18962907100",
