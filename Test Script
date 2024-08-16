@@ -34,7 +34,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Blox Fruits",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Secure/main/BF-DH"))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/48c0a0a15de91c647a8fc1b662cdb460c3118fee/Allmap'))()
   	end    
 })
 local Section = Tab:AddSection({
