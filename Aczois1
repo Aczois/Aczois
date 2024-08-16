@@ -17,8 +17,10 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection("A")
 }]
+
 local Section = Tab:AddSection("B")
 }]
+
 Tab:AddButton({
     Title = "Blox Fruits",
     Description = "Domadic Hub",
