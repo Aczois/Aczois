@@ -17,3 +17,12 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection("A")
 }]
+local Section = Tab:AddSection("B")
+}]
+Tab:AddButton({
+    Title = "Blox Fruits",
+    Description = "Domadic Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Aczois/Aczois/Aczois/A/Secure/BF-DH"))()
+    end
+})
