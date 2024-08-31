@@ -2,11 +2,12 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 
 local win = DiscordLib:Window("discord library")
 
-local serv = win:Server("Preview", "")
+local serv = win:Server("Aczois", "")
 
-local btns = serv:Channel("Buttons")
+local btns = serv:Channel("MVSD")
 
-btns:Button("Kill all", function()
+btns:Button("Ruby Hub", function()
+
 DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
 end)
 
